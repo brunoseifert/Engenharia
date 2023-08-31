@@ -22,8 +22,13 @@ body {
 
 
 
+
 #logo{
     filter: invert(50%);
+}
+
+.nav-item a{
+    color: #ffffff;
 }
 
 .c-item{
@@ -229,7 +234,6 @@ body {
     height: 100%;
     object-fit: cover;
     opacity: 0.8;
-    filter: grayscale(100%);
     
 }
 
