@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladding Page Engenharia & Arquitetura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="assets/urbano.png" style="width: 3rem;" id="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-evenly flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Orçamento</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contato
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <section class="slide-main">   
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item">
+                <div class="carousel-caption d-md-block">
+                  <h1>Arquitetura & Engenharia</h1>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta ad quasi recusandae commodi nisi distinctio non, aspernatur incidunt odio mollitia.</p>
+                </div>
+                <video src="/video/slide-video.mp4" class="c-slide w-100" autoplay muted loop>
+              </div> c-slide
+              <div class="carousel-item c-item">
+                <img src="/video/slide2.jpg" class="c-slide w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h2>Second slide label</h2>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="/video/slide3.jpg" class="c-slide w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="servicos">
+            <div>
+              <h1>Serviços</h1>  
+            </div>
+            <div class="swiper" id="swiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="/assets/engenheiros.png" style="width: 8rem; height: 8rem;" alt="...">
+                  <div>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/civil-engineering.png" style="width: 8rem; height: 8rem;"alt="...">
+                  <div>
+                    <p">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/construcao.png" style="width: 8rem; height: 8rem;"alt="...">
+                  <div>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/engenharia.png" style="width: 8rem; height: 8rem;"alt="...">
+                  <div>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/ideia.png" style="width: 8rem; height: 8rem;"alt="...">
+                  <div>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/valor.png" style="width: 8rem; height: 8rem;"alt="...">
+                  <div>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="card-itens">
+              <div class="card servico">
+                <img src="/assets/engenheiros.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card servico">
+                <img src="/assets/civil-engineering.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card servico">
+                <img src="/assets/construcao.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card servico">
+                <img src="/assets/engenharia.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card servico">
+                <img src="/assets/ideia.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card servico">
+                <img src="/assets/valor.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <section class="sobre">
+          <h1>Quem somos nós</h1>
+
+          <div class="sobre-img">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis nulla beatae excepturi debitis ut pariatur quos, neque temporibus quasi possimus quas minima quod. Impedit ullam fugiat corrupti modi qui blanditiis!</p>
+            <img src="/assets/somos.png" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, praesentium quis eligendi cumque numquam ratione. Neque hic inventore, quam voluptates, architecto iste ipsam incidunt consectetur officiis quo tenetur? Voluptatem, perspiciatis.</p>
+          </div>
+        </section>
+
+        <section class="projetos">
+          
+          <h1>Projetos</h1>
+
+          <section class="galeria">
+            <img src="galeria/1.jpg" alt="">
+            <img src="galeria/2.jpg" alt="">
+            <img src="galeria/3.jpg" alt="">
+            <img src="galeria/4.jpg" alt="">
+            <img src="galeria/5.jpg" alt="">
+            <img src="galeria/6.jpg" alt="">
+            <img src="galeria/7.jpg" alt="">
+            <img src="galeria/8.jpg" alt="">
+            <img src="galeria/9.jpg" alt="">
+          </section>
+
+          <section class="slider">
+            <div class="swiper mySwiper ">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="galeria/1.jpg"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="galeria/2.jpg">
+                </div>
+                <div class="swiper-slide">
+                  <img src="galeria/3.jpg"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="galeria/4.jpg"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="galeria/5.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="galeria/6.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="galeria/7.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="galeria/8.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="galeria/9.jpg"/>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </section>
+        </section>
+
+        <section class="duvida parallax parallax-1">
+          <h1>Duvidas</h1>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="swiper" id="swiper3">  
+            <h1>Avaliação dos nossos clientes</h1>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="pessoas/1.png" alt="">
+                <div class="star">
+                  <img src="pessoas/aval5.png" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                  <img src="pessoas/2.png" alt="">
+                  <div class="star">
+                    <img src="pessoas/aval5.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <img src="pessoas/3.png" alt="">
+                  <div class="star">
+                    <img src="pessoas/aval5.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <img src="pessoas/4.png" alt="">
+                  <div class="star">
+                    <img src="pessoas/aval5.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="avaliacao">
+          <h1>Avaliação dos nossos clientes</h1>
+            <div class="avaliacaorow">
+              <div class="card-avaliacao">
+                <figure>
+                  <img src="pessoas/1.png" alt="">
+                </figure>
+                <div class="star">
+                  <img src="pessoas/aval5.png" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                </div>
+              </div>
+              <div class="card-avaliacao">
+                  <figure>
+                    <img src="pessoas/2.png" alt="">
+                  </figure>
+                  <div class="star">
+                    <img src="pessoas/aval5.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                  </div>
+              </div>
+              <div class="card-avaliacao">
+                  <figure>
+                    <img src="pessoas/3.png" alt="">
+                  </figure>
+                  <div class="star">
+                    <img src="pessoas/aval5.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                  </div>
+              </div>
+              <div class="card-avaliacao">
+                  <figure>
+                    <img src="pessoas/4.png" alt="">
+                  </figure>
+                  <div class="star">
+                    <img src="pessoas/aval5.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                  </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="orcamento">
+          <h1>Faça seu orçamento conosco</h1>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Nome">
+            </div>
+            <div class="col-12">
+              <label for="inputEmail4" class="form-label" >Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-12">
+              <label for="telefone" class="form-label" >Contato</label>
+              <input type="tel" class="form-control" id="telefone" required placeholder="+55">
+            </div>
+            <div class="col">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Serviço</option>
+                <option value="1">Projeto de Residências</option>
+                <option value="2">Projeto de Edifícios Comerciais</option>
+                <option value="3">Projeto de Edifícios Industriais</option> 
+                <option value="4">Projeto de Espaços Públicos</option> 
+                <option value="5">Projeto de Interiores</option> 
+                <option value="6">Projeto de Fundações</option> 
+                <option value="7">Projeto de Sistemas de Abastecimento de Água</option> 
+                <option value="8">Projeto de Sistemas de Esgoto</option> 
+                <option value="9">Projeto de Sistemas de Combate a Incêndio</option> 
+                <option value="10">Projeto de Sistemas Elétricos</option> 
+                <option value="11">Projeto de Paisagismo</option> 
+                <option value="12">Design de Áreas Externas</option> 
+                <option value="13">Avaliação de Propriedades</option> 
+                <option value="14">Inspeções Técnicas</option> 
+              </select>
+            </div>
+            <div class="col-12">
+              <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary botao">Enviar</button>
+            </div>
+          </form>
+          <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.0185014301037!2d-53.91700244538489!3d-28.388509150837574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fc2d60a31ff11b%3A0xe6865ce1caca0772!2sRua%20Pra%C3%A7a%20Rep%C3%BAblica%20-%20Centro%2C%20Iju%C3%AD%20-%20RS%2C%2098700-000!5e0!3m2!1spt-BR!2sbr!4v1692048282289!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </section>
+    </main>
+    <footer class="footer-redes">
+            <p>Todos os direitos reservados ©️</p>
+            <p>Desenvolvido por <strong>Seifert Web Developer Full Stack</strong></p>
+          <section class="redes">
+            <img src="footer/instagram.png" alt="">
+            <img src="footer/linkedin.png" alt="">
+            <img src="footer/whatsapp.png" alt="">
+          </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 15,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+      
+      var swiper2 = new Swiper('#swiper2', {
+        effect: "cards",
+        grabCursor: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+
+      var swiper3 = new Swiper('#swiper3', {
+        grabCursor: true,
+      effect: 'creative',
+      direction: 'vertical',
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: [0, 0, -800],
+          rotate: [180, 0, 0],
+        },
+        next: {
+          shadow: true,
+          translate: [0, 0, -800],
+          rotate: [-180, 0, 0]
+        }
+      },
+      pagination: {
+          el: ".swiper-pagination",
+      },
+    });
+    </script>
+</body>
+</html>
