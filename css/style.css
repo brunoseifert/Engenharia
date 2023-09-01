@@ -25,7 +25,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     z-index: 9999;
-    min-height: 50px;
+    
 }
 
 .navbar-toggler-icon{
@@ -35,9 +35,7 @@ body {
 #offcanvasNavbar{
     width: 50%;
     height: 100%;
-    position: fixed;
     z-index: 9999;
-    overflow-x: hidden;
     transition: 0.5s;
     opacity: 97%;
 }
@@ -196,7 +194,7 @@ body {
 
 #swiper3 h1{
     font-family: 'Bebas Neue', cursive;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
    
 }
 
@@ -214,7 +212,7 @@ body {
 }
 
 .sobre{
-    background-color: #ffffffe3;
+    background-color: #6c757d;
     padding-top: 15%;
     display: flex;
     flex-direction: column;
@@ -298,9 +296,10 @@ body {
 .duvida h1{
     color: #ffffff;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 20%;
     text-shadow: 0 8px 8px rgb(0, 0, 0);
     font-family: 'bebas neue', cursive;
+    font-size: 2.5rem;
 }
 
 .accordion{
@@ -356,7 +355,7 @@ body {
     text-align: center;
     margin-bottom: 8%;
     text-shadow: 0 8px 8px rgba(0, 0, 0, 0.9);
-    font-size: 22px;
+    font-size: 1.8rem;
     margin-top: 8%;
     font-family: 'bebas neue', cursive;
 }
@@ -416,7 +415,7 @@ body {
     padding-top: 3%;
     color: #fefae0;
     font-family: 'montserrat', sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .redes{
@@ -433,7 +432,7 @@ body {
 
 .projetos{
     background-color:#111111fa;
-    padding-bottom: 20%;
+    padding-bottom: 30%;
 }
 
 .projetos h1{
@@ -441,7 +440,9 @@ body {
     justify-content: center;
     color: #fefae0;
     padding-bottom: 15%;
+    padding-top: 20%;
     font-family: 'bebas neue', cursive;
+    font-size: 2.1rem;
 }
 
 .swiper {
@@ -760,8 +761,11 @@ body {
     #swiper2, #swiper3{
         display: none;
     }
+    .footer-redes{
+        font-size: 1rem;
+    }
 
-    
+   
 }
 
 @media screen and (min-width: 1569px) {
